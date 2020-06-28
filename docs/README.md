@@ -1,2 +1,0 @@
-# stuoeWeb
-Stuoe Web
