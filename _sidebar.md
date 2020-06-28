@@ -1,4 +1,4 @@
 
 
-* [介绍](/start)
+* [介绍](/readme)
 * [安装](/install)
