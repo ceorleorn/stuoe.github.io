@@ -4,4 +4,9 @@ Stuoe Framework是一个面向于想要快速构建论坛的新手和开发者�
 
 * 使用Python，因此他很容易安装。使用Sqlite3，不用安装数据库环境
 * 界面美观，不臃肿.Jinja2渲染，快速
-* 开源，数据透明。
+* 开源，数据透明。开源协议：[Apach License](http://www.apache.org/licenses/)
+
+
+> Stuoe目前正在测试版中，这将意味着他还有很多不足和Bug🐛🐞，以及一些很酷的功能没有实现，不过，Bug终将会被打破
+
+>如果你愿意与我们一起开发Stuoe，可以发邮件到snbckcode@gmail.com
