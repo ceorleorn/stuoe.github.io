@@ -9,4 +9,4 @@
 * 数据库:sqlite3
 
 [仓库](https://github.com/stuoe/stuoe.git)
-[快速入门](/readme)
+[快速入门](/pop)
