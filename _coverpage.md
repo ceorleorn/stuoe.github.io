@@ -8,5 +8,5 @@
 * 界面美观，使用Mdui，Jinja2渲染
 * 数据库:sqlite3
 
-[GitHub](https://github.com/stuoe/stuoe.git)
-[Get Started](/?id=stuoeweb)
+[仓库](https://github.com/stuoe/stuoe.git)
+[快速入门](/?id=stuoeweb)
