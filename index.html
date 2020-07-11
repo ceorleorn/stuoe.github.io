@@ -1,39 +1,51 @@
-<!DOCTYPE html>
-<html lang="zh-cn">
+<html>
 
 <head>
-  <meta charset="UTF-8">
-  <title>Stuoe Document 面向想要快速构建论坛的新手和开发者的轻论坛框架</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="Description">
-  <meta name="viewport"
-    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
+    <meta charset="utf-8" />
+    <title>Stuoe 官网 面向想要快速构建论坛的新手和开发者</title>
+    <link rel="stylesheet" href="/static/mdui/css/mdui.min.css">
+    <script src="/static/mdui/js/mdui.min.js"></script>
 </head>
 
 <body>
-  <div id="app"></div>
-  <script>
-    window.$docsify = {
-      name: 'Stuoe',
-      repo: 'https://github.com/stuoe/stuoe.git',
-      coverpage: true,
-      loadSidebar: true
-    }
-  </script>
-  <style>
-    body {
-      overflow: auto !important;
-    }
+    <br><br><br>
+    <div class="mdui-container" align="center">
+        <!--Title and describe-->
+        <header>
+            <div class="mdui-shadow-0 mdui-text-color-theme-icon" align="center">
+                <div class="mdui-typo-display-2 style=" font-weight: 400;">Stuoe Community</div><br>
+                <div class="mdui-typo-subheading" style="font-weight: 300;">面向想要快速构建论坛的新手和开发者<br>界面简洁，易于安装</div>
+            </div><br><br><br>
+            <div class="mdui-divider"></div><br>
+        </header>
+        <!--End Title and describe-->
 
-    /*轮播图下边框*/
-    .carousel {
-      margin: 30px;
-    }
-  </style>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.js"></script>
+
+        <!-- Start Two Button-->
+        <button class="mdui-btn mdui-btn-raised mdui-ripple mdui-color-theme-accent">开始使用</button><button
+            class="mdui-btn mdui-btn-raised mdui-ripple mdui-color-theme-accent">仓库</button><button class="mdui-btn mdui-btn-raised mdui-ripple mdui-color-theme-accent">开发者社区</button><br><br><br><br><br><br><br><br><br>
+        <!-- End Start Two Button-->
+        <br><br>
+        <div class="mdui-row mdui-row-gapless">
+            <div class="mdui-col-xs-4" align="left">
+                <div class="mdui-typo-title">界面美观  🎨</div><br>
+                <div class="mdui-typo-body-1-opacit">Stuoe使用<a href="https://mdui.org/">MDUI</a>,MDUI 是一套用于开发 <a href="https://material.io/design/">Material Design</a> 网页的前端框架</div><br><br>
+                <div class="mdui-typo-title">速度迅敏  🛫</div><br>
+                <div class="mdui-typo-body-1-opacit">基于<a href="https://palletsprojects.com/p/flask/">Flask</a>微框架运行，扩展强，速度快。内存占用小于大部分论坛软件</div><br><br>
+                <div class="mdui-typo-title">安装简单  🛠</div><br>
+                <div class="mdui-typo-body-1-opacit">跳过大多数繁琐的安装步骤，只需要三行指令就可以保姆级安装论坛。数据库使用<a href="https://www.sqlite.org/index.html">Sqlite3</a>，因此不用在意数据库环境</a></div><br><br>
+                <div class="mdui-typo-title">版本运营  🍰</div><br>
+                <div class="mdui-typo-body-1-opacit">论坛软件更新频率快。将新的版本安装到原有的论坛只需要两行指令。</div><br><br>
+            </div>
+            <div class="mdui-col-xs-8" align="right">
+                <img class="mdui-img-fluid" src="/static/img/img1.png"/>
+            </div>
+        </div>
+        <br><br>
+
+    </div>
+
 </body>
+
 
 </html>
