@@ -2,7 +2,7 @@
 
 <head>
 	<meta charset="utf-8" />
-	<title>Stuoe 论坛 官网 -- 快速安装</title>
+	<title>Stuoe论坛官网--快速安装</title>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/stuoe/stuoe.github.io@master/static/mdui/css/mdui.min.css">
 	<script src="https://cdn.jsdelivr.net/gh/stuoe/stuoe.github.io@master/static/mdui/js/mdui.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/gh/stuoe/stuoe.github.io@master/static/marked/marked.min.js"></script>
@@ -11,49 +11,54 @@
 
 <body><br><br><br>
 	<div class="mdui-container" align="center">
+		<div class="mdui-appbar mdui-shadow-0">
+			<div class="mdui-toolbar"><img src="https://cdn.jsdelivr.net/gh/stuoe/stuoe.github.io@master/static/S.png"
+					width="50" height="50">
+				<div class="mdui-typo-headline-opacity">Stuoe</div>
+				<div class="mdui-toolbar-spacer"></div>
+				<h2><small><a href="/docs/start.html"
+							style="text-decoration: none;font-weight: 300;color:#0c0d0e;">Installing</a></small></h2>
+				<h2><small><a href="https://stuoe.pythonanywhere.com/"
+							style="text-decoration: none;font-weight: 300;color:#0c0d0e;">Community</a></small></h2>
+				<h2><small><a href="https://github.com/stuoe/stuoe"
+							style="text-decoration: none;font-weight: 300;color:#0c0d0e;">Github</a></small></h2>
+				<h2><small><a href="https://github.com/stuoe/stuoe.github.io"
+							style="text-decoration: none;font-weight: 300;color:#0c0d0e;">Docs</a></small></h2>
+				<h2><small><a href="https://github.com/stuoe"
+							style="text-decoration: none;font-weight: 300;color:#0c0d0e;">Team</a></small></h2>
+			</div>
+		</div>
 		<div class="mdui-row mdui-row-gapless">
 			<div class="mdui-col-xs-3"></div>
-			<div class="mdui-col-xs-6" align="left">
+			<div class="mdui-col-xs-6" align="left"><br><br>
 				<div class="mdui-typo-display-2">快速开始</div>
 				<div class="mdui-divider"></div>
 				<div class="mdui-typo">
-					<p>此教程将让你快速安装并部署 <b>Stuoe</b></p>
+					<p>此教程将让你快速安装并部署<b>Stuoe</b></p>
 					<p><b><br></b></p>
 					<p><b><br></b></p>
 					<hr>
 					<p><br></p>
-						<p>安装Stuoe最简单的方法是使用配套的命令行</p>
-						<pre><code class="lang-bash">pip install stuoe</code></pre>
-						<p>在使用stuoe startproject --name demobbs</p>
-						<pre><code class="lang-bash">stuoe startproject --name demobbs
-                        cd demobbs</code></pre>
-						<p>看下目录demobbs</p>
-						<pre><code class="lang-bash">Mode&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; LastWriteTime&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Length Name
-                        ----&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -------------&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;------ ----
-                        d-----&nbsp; &nbsp; &nbsp; &nbsp; 2020/7/10&nbsp; &nbsp; &nbsp; 8:25&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; public
-                        d-----&nbsp; &nbsp; &nbsp; &nbsp; 2020/7/10&nbsp; &nbsp; &nbsp; 8:25&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; storage
-                        d-----&nbsp; &nbsp; &nbsp; &nbsp; 2020/7/10&nbsp; &nbsp; &nbsp;17:24&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; __pycache__
-                        -a----&nbsp; &nbsp; &nbsp; &nbsp; 2020/7/10&nbsp; &nbsp; &nbsp;17:24&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 26140 app.py
-                        -a----&nbsp; &nbsp; &nbsp; &nbsp; 2020/7/10&nbsp; &nbsp; &nbsp;11:35&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 413 server.conf
-                        -a----&nbsp; &nbsp; &nbsp; &nbsp; 2020/7/10&nbsp; &nbsp; &nbsp;11:53&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 36864 sqlite3.db
-                        -a----&nbsp; &nbsp; &nbsp; &nbsp; 2020/7/10&nbsp; &nbsp; &nbsp;17:24&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;4885 view.py&nbsp;<br></code></pre>
-						<p>使用Flask命令行启用项目(Flask已经在安装Stuoe预安装)</p>
-						<pre><code class="lang-bash">flask run --port 3000</code></pre>
-						<p>打开浏览器，输入<a href="https://localhost:3000/install"
-								target="_blank">https://localhost:3000/install</a>，配置论坛名称，Smtp服务器，初始化管理员信息</p>
-						<p><br></p>
-							<p><b>Installing !!!!</b></p>
+					<p>安装Stuoe最简单的方法是使用配套的命令行</p>
+					<pre><code class="lang-bash">pip install stuoe</code></pre>
+					<p>在使用stuoe startproject--name demobbs</p>
+					<pre><code class="lang-bash">stuoe startproject--name demobbs cd demobbs</code></pre>
+					<p>看下目录demobbs</p>
+					<pre><code class="lang-bash">Mode&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LastWriteTime&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Length Name----&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-------------&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;------ ----d-----&nbsp;&nbsp;&nbsp;&nbsp;2020/7/10&nbsp;&nbsp;&nbsp;8:25&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;public d-----&nbsp;&nbsp;&nbsp;&nbsp;2020/7/10&nbsp;&nbsp;&nbsp;8:25&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;storage d-----&nbsp;&nbsp;&nbsp;&nbsp;2020/7/10&nbsp;&nbsp;&nbsp;17:24&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;__pycache__-a----&nbsp;&nbsp;&nbsp;&nbsp;2020/7/10&nbsp;&nbsp;&nbsp;17:24&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;26140 app.py-a----&nbsp;&nbsp;&nbsp;&nbsp;2020/7/10&nbsp;&nbsp;&nbsp;11:35&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;413 server.conf-a----&nbsp;&nbsp;&nbsp;&nbsp;2020/7/10&nbsp;&nbsp;&nbsp;11:53&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;36864 sqlite3.db-a----&nbsp;&nbsp;&nbsp;&nbsp;2020/7/10&nbsp;&nbsp;&nbsp;17:24&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4885 view.py&nbsp;<br></code></pre>
+					<p>使用Flask命令行启用项目(Flask已经在安装Stuoe预安装)</p>
+					<pre><code class="lang-bash">flask run--port 3000</code></pre>
+					<p>打开浏览器，输入<a href="https://localhost:3000/install"
+							target="_blank">https:</a>，配置论坛名称，Smtp服务器，初始化管理员信息</p>
+					<p><br></p>
+					<p><b>Installing!!!!</b></p>
 				</div>
 			</div>
 			<div class="mdui-col-xs-1"></div>
 		</div>
 		<footer>
-			<div class="mdui-divider"></div><br>
-			<br><br>
-			<a href="https://bcmjike.xyz">GeekStudio</a>
-			<a href="https://lingkong.team">LingKongTeam</a>
-			<br><br><br><br>
-</footer>
+			<div class="mdui-divider"></div><br><br><br><a href="https://bcmjike.xyz">GeekStudio</a><a
+				href="https://lingkong.team">LingKongTeam</a><br><br><br><br>
+		</footer>
 	</div>
 </body>
 
